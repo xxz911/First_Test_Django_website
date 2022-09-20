@@ -1,0 +1,65 @@
+body {
+    background: rgba(0, 0, 0, 0.729);
+}
+
+aside {
+    float: left;
+    background: rgba(255, 142, 3, 0.835);
+    width: 20%;
+    padding: 2%;
+    height: 100vh;
+    color: rgb(0, 0, 0);
+    border-right: 5px solid rgb(255, 0, 0);
+}
+
+aside a {text-decoration: none;}
+
+aside img {
+    width: 40px;
+    height: 40px;
+    float: left;
+}
+
+aside .logo {
+    font-size: 27px;
+    margin-left: 5px;
+    font-weight: bold;
+}
+
+aside h4 {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    font-size: 23px;
+    text-align: center;
+    color: rgb(0, 47, 255);
+}
+
+aside ul {
+    list-style: none;
+    padding-left: 0px;
+}
+
+aside ul li {
+    color: #fff;
+    display: block;
+    margin-top: 5px;
+    margin-left: 45px;
+    transition: transform .6s ease;
+}
+
+aside ul li:hover, aside ul a:hover {
+    color: rgb(255, 0, 0);
+    transform: scale(1.2);
+}
+
+main .features {
+    float: left;
+    color: #fff;
+    margin-top: 100px;
+    text-align: center;
+    width: 75%;
+
+}
+
+main .features h1 {font-size: 50px;}
+main .features p {max-width: 400px; margin: 20px auto;}

@@ -9,7 +9,8 @@
             {% for el in news%}
                 <div class="alert alert-warning">
                     <h3>{{ el.title }}</h3>
-                    <p>{{ el.anons}}</p>
+                    <h5>{{ el.anons}}</h5>
+                    <p>{{ el.date}}</p>
                 </div>
             {% endfor %} 
         {% else %}
